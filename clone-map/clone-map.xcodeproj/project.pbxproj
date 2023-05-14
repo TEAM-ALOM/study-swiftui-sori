@@ -16,6 +16,8 @@
 		9379D6D329E7BFDA0053E1F5 /* TransportationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9379D6D229E7BFDA0053E1F5 /* TransportationView.swift */; };
 		9379D6D629E7C12E0053E1F5 /* OnlyUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9379D6D529E7C12E0053E1F5 /* OnlyUseView.swift */; };
 		9379D6D829E7C2730053E1F5 /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9379D6D729E7C2730053E1F5 /* SortView.swift */; };
+		93CDACD22A0382BE001B1E42 /* RouteBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CDACD12A0382BE001B1E42 /* RouteBarView.swift */; };
+		93CDACD42A0384B2001B1E42 /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CDACD32A0384B2001B1E42 /* RouteDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		9379D6D229E7BFDA0053E1F5 /* TransportationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationView.swift; sourceTree = "<group>"; };
 		9379D6D529E7C12E0053E1F5 /* OnlyUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyUseView.swift; sourceTree = "<group>"; };
 		9379D6D729E7C2730053E1F5 /* SortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
+		93CDACD12A0382BE001B1E42 /* RouteBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteBarView.swift; sourceTree = "<group>"; };
+		93CDACD32A0384B2001B1E42 /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				9379D6D529E7C12E0053E1F5 /* OnlyUseView.swift */,
 				9379D6D729E7C2730053E1F5 /* SortView.swift */,
 				9379D6CE29E7BE160053E1F5 /* RouteView.swift */,
+				93CDACD12A0382BE001B1E42 /* RouteBarView.swift */,
+				93CDACD32A0384B2001B1E42 /* RouteDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,10 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9379D6D829E7C2730053E1F5 /* SortView.swift in Sources */,
+				93CDACD42A0384B2001B1E42 /* RouteDetailView.swift in Sources */,
 				9379D6D629E7C12E0053E1F5 /* OnlyUseView.swift in Sources */,
 				9379D6D129E7BEDB0053E1F5 /* SearchView.swift in Sources */,
 				9379D6D329E7BFDA0053E1F5 /* TransportationView.swift in Sources */,
 				9379D6C029E6D2FD0053E1F5 /* ContentView.swift in Sources */,
+				93CDACD22A0382BE001B1E42 /* RouteBarView.swift in Sources */,
 				9379D6CF29E7BE160053E1F5 /* RouteView.swift in Sources */,
 				9379D6BE29E6D2FD0053E1F5 /* clone_mapApp.swift in Sources */,
 			);

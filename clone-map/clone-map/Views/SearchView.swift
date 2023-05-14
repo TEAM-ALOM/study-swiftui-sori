@@ -1,10 +1,3 @@
-//
-//  SearchView.swift
-//  clone-map
-//
-//  Created by 이소리 on 2023/04/13.
-//
-
 import SwiftUI
 
 struct SearchView: View {
@@ -17,14 +10,30 @@ struct SearchView: View {
                     .foregroundColor(Color.black)
                     .imageScale(.large)
             })
+            .frame(height: 50)
+            
             VStack {
                 HStack {
-                    Text("출발지")
-                        .padding(3.0)
-                        .background(Color.gray)
-                        .cornerRadius(8)
+                    Text("서울 광진구 군자동 98")
+                        .underline()
+                        .padding(8.0)
                     Spacer()
-                    
+                }
+                .background(Color(red: 237 / 255, green: 237 / 255, blue: 237 / 255))
+                .cornerRadius(1)
+
+                HStack {
+                    Text("샐러디 군자역점")
+                        .underline()
+                        .padding(8.0)
+                    Spacer()
+                }
+                .background(Color(red: 237 / 255, green: 237 / 255, blue: 237 / 255))
+                .cornerRadius(1)
+            }
+            
+            HStack {
+                VStack {
                     Button(action: {
                         print("메인 화면으로 돌아가기")
                     }, label: {
@@ -32,15 +41,11 @@ struct SearchView: View {
                             .foregroundColor(Color.black)
                             .imageScale(.large)
                     })
-                }
-                HStack {
-                    Text("도착지")
-                        .padding(3.0)
-                        .background(Color.gray)
-                        .cornerRadius(8)
-                    Spacer()
+                    .frame(width: 35, height: 35)
                     Image(systemName: "ellipsis")   // vert 버전을 못 찾음
+                        .frame(width: 35, height: 35)
                 }
+
             }
         }
     }

@@ -1,16 +1,23 @@
-//
-//  RouteView.swift
-//  clone-map
-//
-//  Created by 이소리 on 2023/04/13.
-//
-
 import SwiftUI
 
 struct RouteView: View {
     var body: some View {
         ScrollView(.vertical) {
-            Text("동선 파트")
+            VStack(alignment: .leading) {
+                Text("최적")
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.blue)
+                HStack {
+                    Text("16")
+                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .fontWeight(.bold)
+                    Text("분")
+                    Text("| 21:59 도착")
+                    Text("| 1,250원")
+                }
+                RouteBarView()
+                RouteDetailView()
+            }
         }
     }
 }
