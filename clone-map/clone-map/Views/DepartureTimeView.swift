@@ -1,16 +1,13 @@
-//
-//  SortView.swift
-//  clone-map
-//
-//  Created by 이소리 on 2023/04/13.
-//
-
 import SwiftUI
 
 struct DepartureTimeView: View {
     var body: some View {
         HStack(spacing: 5) {
+<<<<<<< HEAD:clone-map/clone-map/Views/DepartureTimeView.swift
             Text("오늘 21:40")
+=======
+            Text("오늘 00:00")
+>>>>>>> main:clone-map/clone-map/Views/SortView.swift
                 .fontWeight(.bold)
                 .foregroundColor(Color.blue)
             Text("출발")

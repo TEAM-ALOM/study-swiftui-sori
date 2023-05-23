@@ -1,10 +1,3 @@
-//
-//  SearchView.swift
-//  clone-map
-//
-//  Created by 이소리 on 2023/04/13.
-//
-
 import SwiftUI
 
 struct SearchView: View {
@@ -18,6 +11,10 @@ struct SearchView: View {
                     .imageScale(.medium)
                     .padding(.horizontal, 5.0)
             })
+<<<<<<< HEAD
+=======
+            .frame(height: 50)
+>>>>>>> main
             
             VStack {
                 HStack {
@@ -26,7 +23,10 @@ struct SearchView: View {
                         .padding(8.0)
                     Spacer()
                 }
+<<<<<<< HEAD
                 .frame(width: 290, height: 43)
+=======
+>>>>>>> main
                 .background(Color(red: 237 / 255, green: 237 / 255, blue: 237 / 255))
                 .cornerRadius(1)
 
@@ -36,11 +36,18 @@ struct SearchView: View {
                         .padding(8.0)
                     Spacer()
                 }
+<<<<<<< HEAD
                 .frame(width: 290, height: 43)
                 .background(Color(red: 237 / 255, green: 237 / 255, blue: 237 / 255))
                 .cornerRadius(1)
             }
 
+=======
+                .background(Color(red: 237 / 255, green: 237 / 255, blue: 237 / 255))
+                .cornerRadius(1)
+            }
+            
+>>>>>>> main
             HStack {
                 VStack {
                     Button(action: {
@@ -51,12 +58,20 @@ struct SearchView: View {
                             .imageScale(.large)
                             .frame(minWidth: 1, maxWidth: 40, minHeight: 1, maxHeight: 40)
                     })
+<<<<<<< HEAD
                     
                     Image(systemName: "ellipsis")   // vert 버전을 못 찾음
                         .foregroundColor(Color.gray)
                         .frame(minWidth: 1, maxWidth: 40, minHeight: 1, maxHeight: 40)
                 }
                 .frame(minWidth: 40, maxWidth: 40, minHeight: 90, maxHeight: 90)
+=======
+                    .frame(width: 35, height: 35)
+                    Image(systemName: "ellipsis")   // vert 버전을 못 찾음
+                        .frame(width: 35, height: 35)
+                }
+
+>>>>>>> main
             }
         }
         .padding(.horizontal, 6.0)
