@@ -2,16 +2,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 5) {
-            VStack {
-                SearchView()
-                TransportationView()
-            }
+        VStack(spacing: 7) {
+            SearchView()
+            TransportationView()
+            Divider()
+                .background(Color.black)
             OnlyUseView()
-            SortView()
-            RouteView()
+            Divider()
+            DepartureTimeView()
+            Divider()
+            ScrollView(.vertical) {
+                BestRouteView()
+                RouteView()
+            }
         }
-        .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
     }
 }
 
