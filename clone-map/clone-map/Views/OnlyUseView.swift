@@ -2,45 +2,33 @@ import SwiftUI
 
 struct OnlyUseView: View {
     var body: some View {
-<<<<<<< HEAD
-        GeometryReader { geometry in
-            HStack(spacing: 10) {
+            HStack {                
                 Text("전체")
                     .underline()
                     .fontWeight(.bold)
+                    .font(.system(size: 15))
                 
                 Text("|")
-                    .foregroundColor(Color.gray)
-                
+                    .foregroundColor(.gray)
+                    .font(.system(size: 15))
+
                 Text("버스 2")
                     .font(.system(size: 15))
-                    .foregroundColor(Color.gray)
+                    .foregroundColor(.gray)
+                    .font(.system(size: 15))
                     .underline()
                 
                 Text("|")
-                    .foregroundColor(Color.gray)
+                    .foregroundColor(.gray)
                 
                 Text("지하철 1")
-                    .foregroundColor(Color.gray)
+                    .foregroundColor(.gray)
+                    .font(.system(size: 15))
                     .underline()
+                Spacer(minLength: 100)
             }
-            .frame(width: geometry.size.width, height: 35)
-
-            .background(Color.yellow)
-
-            .font(.system(size: 15))
-            //        .background(Color(red: 248 / 255, green: 249 / 255, blue: 251 / 255))
-=======
-        HStack(spacing: 10) {
-            Text("전체")
-                .underline()
-                .fontWeight(.bold)
-            Text("버스 2")
-                .underline()
-            Text("지하철 1")
-                .underline()
->>>>>>> main
-        }
+            .padding(.horizontal)
+            .background(Color(red: 248 / 255, green: 249 / 255, blue: 251 / 255))   // 위 아래 공간이 다 채워지지 않고, 살짝 남음..
     }
 }
 

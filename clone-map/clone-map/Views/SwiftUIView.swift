@@ -1,10 +1,3 @@
-//
-//  SwiftUIView.swift
-//  clone-map
-//
-//  Created by 이소리 on 2023/05/04.
-//
-
 import SwiftUI
 
 struct SwiftUIView: View {

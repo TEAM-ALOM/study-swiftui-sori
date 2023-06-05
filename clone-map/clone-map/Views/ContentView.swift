@@ -12,8 +12,8 @@ struct ContentView: View {
             DepartureTimeView()
             Divider()
             ScrollView(.vertical) {
-                BestRouteView()
-                RouteView()
+                RouteView(isBest: true)
+                RouteView(isBest: false)
             }
         }
     }

@@ -1,10 +1,3 @@
-//
-//  RouteTypeView.swift
-//  clone-map
-//
-//  Created by 이소리 on 2023/05/07.
-//
-
 import SwiftUI
 
 struct BestRouteView: View {
