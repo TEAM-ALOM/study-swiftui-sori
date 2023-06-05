@@ -3,22 +3,22 @@ import SwiftUI
 struct DepartureTimeView: View {
     var body: some View {
         HStack(spacing: 5) {
-<<<<<<< HEAD:clone-map/clone-map/Views/DepartureTimeView.swift
             Text("오늘 21:40")
-=======
-            Text("오늘 00:00")
->>>>>>> main:clone-map/clone-map/Views/SortView.swift
                 .fontWeight(.bold)
+                .font(.system(size: 16))
                 .foregroundColor(Color.blue)
             Text("출발")
+                .font(.system(size: 16))
             Image(systemName: "chevron.down.circle")
+                .resizable().frame(width:14, height: 14)
             Spacer()
             
             Text("최적 경로순")
-                .font(.system(size: 15))
+                .font(.system(size: 14))
             Image(systemName: "chevron.down.circle")
+                .resizable().frame(width:14, height: 14)
         }
-        .padding(EdgeInsets(top: 5, leading: 15, bottom: 5, trailing:20))
+        .padding(EdgeInsets(top: 5, leading: 15, bottom: 5, trailing:15))
     }
 }
 
